@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Treinamento web</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+         $(function () {
+            $("#header").load("html/header.html");
+            $("#footer").load("html/footer.html");
+         });
+      </script>
+  </head>
+  <body onLoad="slide1()">
+    <div id="header"></div>
+    <!-- <head>
+      <div class="container">
+        <div>
+          <img
+            class="logo"
+            src="img/logo-barreto-fundo-transparente-176x139.png"
+            alt="logo"
+          />
+        </div>
+        <div>
+          <ul class="menu">
+            <li><a class="menu-home" href="#">Home</a></li>
+            <li><a class="menu-home" href="#">O Escritório</a></li>
+            <li><a class="menu-home" href="#">Areas de Atuação</a></li>
+            <li><a class="menu-home" href="#">Equipes</a></li>
+            <li><a class="menu-home" href="#">Contatos</a></li>
+            <li><a class="menu-home" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="line"></div>
+    </head> -->
+    <main>
+      <div class="banner">
+        <img id="slide" class="banner1" src="img/imagem1.jpg" alt="banner " />
+      </div>
+
+      <div class="elementos">
+        <a href="html/escritorio.html">
+          <img class="img-elementos" src="img/escritorio.jpg" alt="" />
+        </a>
+        <a href="#">
+          <img class="img-elementos" src="img/areas-atuacao-home.jpg" alt="" />
+        </a>
+        <a href="#">
+          <img class="img-elementos" src="img/MBCADV-a-equipe.jpg" alt="" />
+        </a>
+      </div>
+      <div class="advogados">
+        <div>
+          <img src="img/advogados-menor2.png" alt="advogados" />
+        </div>
+        <div>
+          <p class="texto1">
+            O escritório de advocacia
+            <b> MBC – MENEZES, BARRETO E CUNHA ADVOGADOS S/C </b>, fundado em 12
+            de março de 2001, é atualmente composto pelos sócios DANTE MENEZES
+            PEREIRA, MARCELO NEVES BARRETO e MAURÍCIO COSTA FERNANDES DA CUNHA
+            mais um corpo de advogados associados.
+          </p>
+          <p class="texto2">
+            Para atender satisfatoriamente aos seus clientes,<b>
+              MBC – MENEZES, BARRETO E CUNHA ADVOGADOS S/C </b
+            >conta com a colaboração dos advogados parceiros/associados, para
+            desenvolvimento dos trabalhos perante os órgãos públicos e cartórios
+            de toda a Bahia.
+          </p>
+          <a class="saiba-mais" href="#">Saiba Mais ...</a>
+        </div>
+      </div>
+      <div class="line2"></div>
+    </main>
+    <section>
+      <div class="sessão">
+        <div class="contato">
+          <h2 class="duvida">
+            Possui alguma duvida? Entre em contato<br />
+            conosco.
+          </h2>
+          <div class="form">
+            <form class="formulario">
+              <label for="nome">Nome*</label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Nome"
+                required
+              />
+
+              <label for="Celular"> Telefone Celular*</label>
+              <input type="number" placeholder="Telefone Celular" required />
+
+              <label for="Telefone">Telefone Fixo</label>
+              <input type="number" placeholder="Telefone Fixo" />
+
+              <label for="email">E-mail*</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Email"
+              />
+
+              <label for="assunto">Assunto*</label>
+              <input type="text" name="" id="" placeholder="Assunto" required />
+
+              <label for="Mensagem">Mensagem*</label>
+              <input type="text" name="Mensagem*" id="Mensagem" required />
+
+              <input class="submit" type="submit" value="Enviar" src="#" />
+            </form>
+          </div>
+        </div>
+        <div class="localizacao">
+          <h2 class="localizacao-text">Localização</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.774057649701!2d-38.455276227622704!3d-12.97664643600494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b0f2bb7a399%3A0x3749aac8665b3eb5!2sMenezes%20Barreto%20e%20Cunha%20Advogados!5e0!3m2!1spt-PT!2sbr!4v1674851613565!5m2!1spt-PT!2sbr"
+
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="cont" >
+              
+              <a class="inf" href="https://goo.gl/maps/jUAzXHVfhLbE3WKaA"><img class="contat" src="img/endereco-ok-150x150.png"/> Salvador, 1057, Caminho das Árvores. Edf. Salvador Shopping Business, Torre América, Salas </br> 1101, 1102 e 1103. CEP: 41820-790,  Salvador-BA</a>
+              <a class="inf" href="https://api.whatsapp.com/send?phone=+55718878748&text="> <img class="contat" src="img/zap-150x150.png"/> (71) 99609-7409</a>
+              <a class="inf" href="tel:7134968335"><img class="contat" src="img/telefone-ok-150x150.png"/>(71) 3496-8335</a>
+              <a class="inf" href="mailto:atendimento.com.br"><img class="contat" src="img/email-ok-150x150.png" /> atendimento@mbcadv.com.br </a>
+              <img src="img/logo-barreto-fundo-transparente-176x139.png" alt="logo" class="logo-final">
+        </div>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <!-- <footer>
+        <p>Esta pagina foi criada com intuito de aprendizado</p>
+        <p>Sem nenhuma intuição de fins lucrativos</p>
+    </footer> -->
+  </body>
+</html>

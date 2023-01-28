@@ -1,0 +1,255 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 230px;
+    margin-top: 20px
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+a.menu-home {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+a.menu-home:hover {
+    color: blue;
+}
+
+li {
+    display: block;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: blue;
+    margin-bottom: 16px;
+    margin-left: 12px
+}
+
+.banner {
+     max-width: 1000;
+     margin: 0 auto;
+}
+
+.banner1 {
+    width: 100%;
+   margin-left: 12px;
+}
+.banner2 {
+    width: 100%;
+    margin-left: 12px
+}
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.img-elementos {
+    width: 550px;
+    height: 300px;
+}
+
+.advogados {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+.texto1 {
+    color: #4b4f58 ;
+    font-size: 20px;
+    margin-bottom: 48px;
+    margin-left: 20px;
+    /* margin-right: 16px; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.texto2 {
+    color: #4b4f58 ;
+    font-size: 20px;
+    margin-bottom: 48px;
+    margin-left: 20px;
+    /* margin-right: 12px; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.saiba-mais {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: blue;
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin-top: 48px;
+    margin-left: 12px;
+    /* margin-right: 12px; */
+}
+
+.sessão {
+    
+    display: flex;
+    flex-direction: row;
+    background: #F0F8FF;
+    margin-top: 32px;
+    margin-bottom:0 ;
+    height: 1000px;
+}
+
+.contato {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    /* display: flex;
+    flex-direction: column; */
+    width: 300px;
+    height: 400px;
+    background-color: fff;
+    margin: 0;
+}
+
+.form {
+    padding: 20px;
+    color: #000;
+    border: 1px solid #c3c3c3;
+    background: #fff;
+    width: 550px;
+    height: 890px;
+    margin-top: 32px;
+}
+
+input {
+    margin: 8px 0;
+    width: 500px;
+    height: 48px;
+    border: 1px solid #c3c3c3;
+    
+}
+
+input::placeholder{
+    font-size: 24px;
+    padding: 12px;
+}
+
+label{
+    font-size: 24px;
+    margin: 24px 0px;
+}
+.duvida {
+    color:#7A7A7A
+}
+
+#Mensagem {
+    height: 230px;
+}
+
+.duvida {
+    font-weight: 700;
+    margin: 0;
+    font-size: 28px;
+}
+
+.submit {
+    width: 84px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #fff;
+}
+
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap; */
+}
+
+iframe {
+    width: 1080px;
+    height: 450px;
+    border: 0;
+    margin-top: 20px;
+}
+
+.localizacao-text {
+    color:#3a3a3a;;
+    margin: 12px 0px;
+    font-size: 40px;
+}
+
+.contat {
+    width: 52px;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;  
+}
+.inf {
+    text-decoration: none;
+    color: #4169e1;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px 16px;
+    display: flex;
+    align-items: center;
+}  
+    
+.inf:hover{
+    color: #3a3a3a;
+}
+
+.logo-final{
+    width: 150px;
+    margin-top: 16px;
+    margin-left: 0;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #3a3a3a ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
